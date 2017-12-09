@@ -15,10 +15,11 @@ import {HeroService} from './hero.service';
 import {MessageService} from './message.service';
 import {HttpClientInMemoryWebApiModule} from 'angular-in-memory-web-api';
 import {InMemoryDataService} from './in-memory-data.service';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 @NgModule({
   declarations: [
-    AppComponent, HeroesComponent, HeroDetailComponent, MessagesComponent, DashboardComponent
+    AppComponent, HeroesComponent, HeroDetailComponent, MessagesComponent, DashboardComponent, HeroSearchComponent
   ],
   imports: [
     BrowserModule, FormsModule, AppRoutingModule, HttpClientModule,
